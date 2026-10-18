@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Sumanta Salon Owner",
+    "slug": "sumanta-salon-owner",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#FBF7EF",
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FBF7EF"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.sumantasalon.owner"
+    },
+    "android": {
+      "package": "com.sumantasalon.owner",
+      "predictiveBackGestureEnabled": false,
+      "softwareKeyboardLayoutMode": "resize",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#FBF7EF"
+      }
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
